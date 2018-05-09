@@ -18,9 +18,9 @@ import javax.servlet.http.HttpServletResponse;
  */
 @WebServlet("/RegistroServlet")
 public class RegistroServlet extends HttpServlet {
-	 static String bdd="jdbc:mysql://localhost/usuarios";
-	 static String user="andres";
-	 static String pass="andres"; 
+	 static String bdd="jdbc:mysql://mysqlpablo.mysql.database.azure.com/usuarios";
+	 static String user="pablolandeta@mysqlpablo";
+	 static String pass="Pablo666"; 
 	 static Connection con=null;
 	private static final long serialVersionUID = 1L;
        
