@@ -16,7 +16,7 @@ import javax.servlet.http.HttpServletResponse;
 /**
  * Servlet implementation class RegistroServlet
  */
-@WebServlet("/RegistroServlet")
+@WebServlet("src/RegistroServlet")
 public class RegistroServlet extends HttpServlet {
 	 static String bdd="jdbc:mysql://mysqlpablo.mysql.database.azure.com/usuarios";
 	 static String user="pablolandeta@mysqlpablo";
